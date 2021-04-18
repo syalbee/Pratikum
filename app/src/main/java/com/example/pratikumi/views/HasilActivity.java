@@ -23,6 +23,7 @@ public class HasilActivity extends AppCompatActivity {
     private String date ="", zodiak = "";
     private String zozo,bln;
     private int bulan, tanggal = 0;
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
