@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/teal_700">
+
+
+    <TextView
+        android:id="@+id/tvSatu"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Masukan tanggal lahir !"
+        android:textStyle="bold"
+        android:textSize="24sp"
+        android:textColor="@color/langsat"
+        android:layout_marginTop="50dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true" />
+
+
+    <EditText
+        android:id="@+id/etTanggal"
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tvSatu"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="27dp"
+        android:layout_marginTop="30dp"
+        android:layout_marginEnd="27dp"
+        android:inputType="date"
+        android:textSize="25dp"
+        android:clickable="false"
+        android:cursorVisible="false"
+        android:focusable="false"
+        android:focusableInTouchMode="false"/>
+
+    <Button
+        android:id="@+id/btCek"
+        android:layout_width="70dp"
+        android:layout_height="50dp"
+        android:background="@color/biru"
+        android:textAllCaps="false"
+        android:text="Submit"
+        android:textColor="@color/white"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="100dp"
+        android:layout_marginTop="355dp"
+        android:layout_marginEnd="100dp"/>
+
+
+</RelativeLayout>
